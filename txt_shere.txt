@@ -1,0 +1,3 @@
+sudo mkdir /mnt/winshare
+
+sudo mount -t cifs //WINDOWS_IP/SHARED_FOLDER /mnt/winshare -o username=WINDOWS_USERNAME,password=WINDOWS_PASSWORD
